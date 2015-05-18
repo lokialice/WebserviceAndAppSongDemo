@@ -13,6 +13,13 @@
 		617388411AD67F320047A8D7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 617388401AD67F320047A8D7 /* Images.xcassets */; };
 		617388441AD67F320047A8D7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 617388421AD67F320047A8D7 /* LaunchScreen.xib */; };
 		617388501AD67F320047A8D7 /* MTPAPPSongTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6173884F1AD67F320047A8D7 /* MTPAPPSongTests.swift */; };
+		6173885B1AD67F510047A8D7 /* admin.php in Resources */ = {isa = PBXBuildFile; fileRef = 6173885A1AD67F510047A8D7 /* admin.php */; };
+		6173885D1AD67F780047A8D7 /* dbCon.php in Resources */ = {isa = PBXBuildFile; fileRef = 6173885C1AD67F780047A8D7 /* dbCon.php */; };
+		61A121B11AD7BEF300EA0A1B /* danhsach.php in Resources */ = {isa = PBXBuildFile; fileRef = 61A121B01AD7BEF300EA0A1B /* danhsach.php */; };
+		61A121B51AD7C99200EA0A1B /* BaiHatTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A121B41AD7C99200EA0A1B /* BaiHatTableViewController.swift */; };
+		61A121B71AD7CBFF00EA0A1B /* ChitietViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A121B61AD7CBFF00EA0A1B /* ChitietViewController.swift */; };
+		61A121B91AD7CEE900EA0A1B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61A121B81AD7CEE900EA0A1B /* AVFoundation.framework */; };
+		61A121BB1AD7D00500EA0A1B /* gai.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 61A121BA1AD7D00500EA0A1B /* gai.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +43,13 @@
 		617388491AD67F320047A8D7 /* MTPAPPSongTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MTPAPPSongTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6173884E1AD67F320047A8D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6173884F1AD67F320047A8D7 /* MTPAPPSongTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTPAPPSongTests.swift; sourceTree = "<group>"; };
+		6173885A1AD67F510047A8D7 /* admin.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = admin.php; sourceTree = "<group>"; };
+		6173885C1AD67F780047A8D7 /* dbCon.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = dbCon.php; sourceTree = "<group>"; };
+		61A121B01AD7BEF300EA0A1B /* danhsach.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = danhsach.php; sourceTree = "<group>"; };
+		61A121B41AD7C99200EA0A1B /* BaiHatTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaiHatTableViewController.swift; sourceTree = "<group>"; };
+		61A121B61AD7CBFF00EA0A1B /* ChitietViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChitietViewController.swift; sourceTree = "<group>"; };
+		61A121B81AD7CEE900EA0A1B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		61A121BA1AD7D00500EA0A1B /* gai.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = gai.jpg; path = ../../../../Downloads/gai.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61A121B91AD7CEE900EA0A1B /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +74,8 @@
 		6173882B1AD67F310047A8D7 = {
 			isa = PBXGroup;
 			children = (
+				61A121B81AD7CEE900EA0A1B /* AVFoundation.framework */,
+				617388591AD67F3D0047A8D7 /* PHP */,
 				617388361AD67F320047A8D7 /* MTPAPPSong */,
 				6173884C1AD67F320047A8D7 /* MTPAPPSongTests */,
 				617388351AD67F320047A8D7 /* Products */,
@@ -83,6 +100,8 @@
 				617388401AD67F320047A8D7 /* Images.xcassets */,
 				617388421AD67F320047A8D7 /* LaunchScreen.xib */,
 				617388371AD67F320047A8D7 /* Supporting Files */,
+				61A121B41AD7C99200EA0A1B /* BaiHatTableViewController.swift */,
+				61A121B61AD7CBFF00EA0A1B /* ChitietViewController.swift */,
 			);
 			path = MTPAPPSong;
 			sourceTree = "<group>";
@@ -90,6 +109,7 @@
 		617388371AD67F320047A8D7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				61A121BA1AD7D00500EA0A1B /* gai.jpg */,
 				617388381AD67F320047A8D7 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -110,6 +130,16 @@
 				6173884E1AD67F320047A8D7 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		617388591AD67F3D0047A8D7 /* PHP */ = {
+			isa = PBXGroup;
+			children = (
+				6173885A1AD67F510047A8D7 /* admin.php */,
+				6173885C1AD67F780047A8D7 /* dbCon.php */,
+				61A121B01AD7BEF300EA0A1B /* danhsach.php */,
+			);
+			name = PHP;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,8 +222,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61A121BB1AD7D00500EA0A1B /* gai.jpg in Resources */,
+				61A121B11AD7BEF300EA0A1B /* danhsach.php in Resources */,
+				6173885B1AD67F510047A8D7 /* admin.php in Resources */,
 				6173883F1AD67F320047A8D7 /* Main.storyboard in Resources */,
 				617388441AD67F320047A8D7 /* LaunchScreen.xib in Resources */,
+				6173885D1AD67F780047A8D7 /* dbCon.php in Resources */,
 				617388411AD67F320047A8D7 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -214,6 +248,8 @@
 			files = (
 				6173883C1AD67F320047A8D7 /* ViewController.swift in Sources */,
 				6173883A1AD67F320047A8D7 /* AppDelegate.swift in Sources */,
+				61A121B51AD7C99200EA0A1B /* BaiHatTableViewController.swift in Sources */,
+				61A121B71AD7CBFF00EA0A1B /* ChitietViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +441,7 @@
 				617388551AD67F320047A8D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		617388561AD67F320047A8D7 /* Build configuration list for PBXNativeTarget "MTPAPPSongTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +450,7 @@
 				617388581AD67F320047A8D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
